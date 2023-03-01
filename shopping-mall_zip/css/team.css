@@ -1,0 +1,72 @@
+/*
+Template Name: Events
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************team****************/
+#team_d{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+ 
+.team_d1r h5 a{
+margin-right:10px;
+color: #ff7c6e;
+ }
+.team_d1r h5 span{
+color: #333;
+ }
+.team_d1i1 .progress {
+height: 6px;
+border-radius: 0;
+margin-bottom: 0;
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.team_d1i1 .progress-bar-success {
+background: #ff7c6e;
+}
+.team_d1i1 {
+width:70%;
+}
+.team_d1{
+box-shadow: 0px 0px 7px 0px #ddd;
+padding:30px 15px 10px 15px; 
+ }
+/*********************team_end****************/
+
+@media screen and (max-width : 767px){
+.team_d1r {
+margin-top:10px;
+text-align:center; 
+ }
+.team_d1r span{
+float:none!important;
+display:block;
+margin-top:8px; 
+ }
+.team_d1i1 {
+text-align:center;
+width:100%; 
+ }
+.team_d1i1 h5{
+text-align:left;
+ }
+.team_d1r p{
+text-align:left; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.team_d1r h5{
+font-size:16px; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+  }
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }

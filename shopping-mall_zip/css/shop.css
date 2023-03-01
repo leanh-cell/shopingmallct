@@ -1,0 +1,245 @@
+/*
+Template Name: Events
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+/*********************shop****************/
+#shop{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.shop_1r1r .form-control {
+display: inline-block;
+border-radius: 0;
+border-color: #ddd;
+box-shadow: none;
+font-size:18px;
+height:45px;
+}
+.shop_1r1l  {
+padding-top:10px;
+}
+.feature_2r2l{
+position:relative; 
+ }
+.feature_2r2l2{
+position:absolute;
+width:100%;
+top:0;
+padding:10px; 
+ }
+.feature_2r2l2 h6 a{
+background:#1270e3;
+display:inline-block;
+width:50px;
+height:50px;
+line-height:50px;
+color:#fff;
+text-align:center;
+border-radius:50%;
+ }
+.feature_2r2l3{
+position:absolute;
+width:100%;
+bottom:0;
+text-align:right;
+display:none;
+ }
+.feature_2r2l3 ul li a{
+background:#ff7c6e;
+display:inline-block;
+width:40px;
+height:40px;
+line-height:40px;
+color:#fff;
+text-align:center;
+margin-bottom:1px;
+ }
+.feature_2r2l3 ul li a:hover{
+background:#1270e3;
+ }
+.feature_2r2l:hover .feature_2r2l3{
+display:block;
+ }
+.feature_2r2lb span{
+display:inline-block;
+margin-top:15px; 
+ }
+.feature_2r2{
+margin-top:30px; 
+ }
+.feature_2r2lb {
+text-align:center;
+box-shadow: 0px 0px 7px 0px rgb(83 95 159 / 15%);
+padding:0px 15px 15px 15px; 
+ }
+ 
+/* Indicators list style */
+.article-slide .carousel-indicators {
+width: 100%;
+position:static;
+margin-top:10px;
+margin-left:auto;
+margin-right:auto;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+border: medium none;
+border-radius: 0;
+margin-bottom: 5px;
+margin-left: 0;
+margin-right: 5px !important;
+margin-top: 0;
+width:18%;
+height:90px;
+text-align:center;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+border: 5px solid #f4f4f4;
+float: left;
+left: 0;
+width:100%;
+height:90px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+border: 5px solid #ff7c6e;
+}
+.shop_dm{
+width:85%;
+margin-left:auto;
+margin-right:auto; 
+ }
+.shop_d1r h4{
+   color:#FF6600;
+   font-size:28px;
+}
+.shop_d1r1i .form-control{
+box-shadow:none;
+height:45px;
+border-radius:0;
+font-size:16px;
+margin-top:15px; 
+ }
+.shop_d1r2 .input-group {
+width: 27%;
+margin-top:15px;
+}
+.shop_d1{
+box-shadow: 0px 0px 7px 0px #ddd;
+padding:30px 15px 10px 15px;
+margin-bottom:30px; 
+ }
+ 
+.shop_d2 .nav_1 li {
+display: inline-block;
+font-weight:bold;
+}
+.shop_d2 .nav_1 li a {
+background: #f4f4f4!important;
+color: #000!important;
+font-size: 18px;
+margin-right: 2px;
+margin-left: 2px;
+padding: 12px 30px 10px 30px;
+display: block;
+}
+.shop_d2 .nav_1 li a:hover {
+background: #ff7c6e!important;
+color: #fff!important;
+}
+.nav_1>li.active>a, .nav_1>li.active>a:hover, .nav_1>li.active>a:focus {
+background: #ff7c6e!important;
+color: #fff!important;
+}
+.shop_d2{
+box-shadow: 0px 0px 7px 0px #ddd;
+padding:30px; 
+ }
+.tab-content {
+padding-top:20px; 
+ }
+.home_i h5 i{
+margin-right:5px; 
+ }
+.blog_dt3{
+box-shadow: 0px 0px 7px 0px #ddd;
+padding:15px 30px 30px 30px;
+margin-top:30px; 
+ }
+/*********************shop_end****************/
+
+@media screen and (max-width : 767px){
+#shop{
+text-align:center; 
+ }
+.shop_d1r p{
+text-align:left; 
+ }
+.shop_1r1r {
+margin-top:10px; 
+ }
+.feature_2r2l2 {
+text-align:left; 
+ }
+.feature_2r2lb {
+margin-bottom:15px; 
+ }
+.shop_d1l  .cont-slider img{
+height:auto!important; 
+ }
+.article-slide .carousel-indicators li {
+width: 16%;
+height:50px;
+}
+.article-slide .carousel-indicators img{
+height:50px; 
+ }
+.home_i img{
+width:100%; 
+ }
+.shop_d1r2 .input-group{
+width:61%;
+margin-left:auto;
+margin-right:auto; 
+ }
+.shop_d2 .nav_1 li{
+margin-top:8px; 
+ }
+.shop_d2 {
+padding: 15px;
+text-align:left;
+}
+.blog_detail_l2i1 {
+text-align:center; 
+ }
+.blog_dt3i p{
+text-align:left; 
+ }
+.blog_detail_l2i1 p{
+text-align:left; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.article-slide .carousel-indicators li {
+width: 16%;
+}
+.shop_d1r2 .input-group{
+width:45%;
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.article-slide .carousel-indicators li {
+width: 16%;
+}
+.shop_d1r2 .input-group{
+width:33%;
+ }
+  }
+@media (min-width:1201px) and (max-width:1270px) {
+
+ }
