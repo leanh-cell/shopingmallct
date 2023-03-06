@@ -1,1003 +1,1523 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Events</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/global.css" rel="stylesheet">
-	<link href="css/index.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
-	<script src="js/jquery-2.1.1.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
   </head>
-<body>
+  <body>
+    <section id="top">
+      <div class="container">
+        <div class="row">
+          <div class="top_1 clearfix">
+            <div class="col-sm-3">
+              <div class="top_1l clearfix">
+                <p class="col"><i class="fa fa-phone"></i> +91-123-4567 6587</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="top_1r text-center clearfix">
+                <ul class="mgt">
+                  <li>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-rss"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="top_1rn text-right clearfix">
+                <h5 class="mgt">
+                  <a class="m_tag button mgt" href="#"
+                    ><i class="fa fa-ticket"></i> Purchase Ticket
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="top">
- <div class="container">
-  <div class="row">
-   <div class="top_1 clearfix">
-    <div class="col-sm-3">
-	 <div class="top_1l clearfix">
-	   <p class="col"><i class="fa fa-phone"></i> +91-123-4567 6587</p>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="top_1r text-center clearfix">
-	   <ul class="mgt">
-	    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="#"><i class="fa fa-rss"></i></a></li>
-	   </ul>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="top_1rn text-right clearfix">
-	    <h5 class="mgt"><a class="m_tag button mgt" href="#"><i class="fa fa-ticket"></i> Purchase Ticket </a></h5>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+    <section id="header" class="clearfix cd-secondary-nav">
+      <nav class="navbar nav_t">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><i class="fa fa-cart-plus col_1"></i> Shopping Mall</a
+            >
+          </div>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav">
+              <li><a class="m_tag active_tab" href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Shop<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="shop.html">Shop</a></li>
+                  <li>
+                    <a class="border_none" href="detail.html">Shop Detail</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Blog<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li>
+                    <a class="border_none" href="blog_detail.html"
+                      >Blog Detail</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Team<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="team.html">Team</a></li>
+                  <li>
+                    <a class="border_none" href="team_detail.html"
+                      >Team Detail</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a class="m_tag" href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pages<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="cart.html">Shopping Cart</a></li>
+                  <li>
+                    <a class="border_none" href="checkout.html">Checkout</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="m_tag" href="login.html">Login</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+                <ul class="dropdown-menu drop_cart" role="menu">
+                  <li>
+                    <div class="drop_1i clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il clearfix">
+                          <h5 class="mgt col_black">2 ITEMS</h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il text-right clearfix">
+                          <h5 class="mgt"><a href="cart.html">VIEW CART</a></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i1 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1i1l clearfix">
+                          <h5 class="mgt bold">
+                            <a href="#">Nulla Quis</a> <br />
+                            <span class="normal col_black mt_top"
+                              >1x - $89.00</span
+                            >
+                          </h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-4">
+                        <div class="drop_1i1r clearfix">
+                          <a href="#"
+                            ><img src="img/24.jpg" class="iw" alt="abc"
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-sm-2 col-xs-2">
+                        <div class="drop_1i1l text-right clearfix">
+                          <h6 class="mgt bold">
+                            <span><i class="fa fa-remove"></i></span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i1 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1i1l clearfix">
+                          <h5 class="mgt bold">
+                            <a href="#">Eget Nulla</a> <br />
+                            <span class="normal col_black mt_top"
+                              >1x - $49.00</span
+                            >
+                          </h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-4">
+                        <div class="drop_1i1r clearfix">
+                          <a href="#"
+                            ><img src="img/25.jpg" class="iw" alt="abc"
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-sm-2 col-xs-2">
+                        <div class="drop_1i1l text-right clearfix">
+                          <h6 class="mgt bold">
+                            <span><i class="fa fa-remove"></i></span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i2 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il clearfix">
+                          <h4 class="mgt col_black">TOTAL</h4>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il text-right clearfix">
+                          <h4 class="mgt col_black">$138.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i3 text-center clearfix">
+                      <div class="col-sm-12 col-xs-12">
+                        <h4>
+                          <a class="button" href="checkout.html">CHECKOUT</a>
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
 
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  ><i class="fa fa-search"></i
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li>
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search"
+                      />
+                      <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button">
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </section>
 
+    <section id="center" class="clearfix center_home">
+      <div class="center_hm clearfix">
+        <div class="container">
+          <div class="row">
+            <div class="center_home1 clearfix">
+              <div class="col-sm-6">
+                <div class="center_home1i clearfix">
+                  <ul class="mgt">
+                    <li>
+                      <span class="span_1">22</span><br /><span class="span_2"
+                        >Day</span
+                      >
+                    </li>
+                    <li>
+                      <span class="span_1 bg_1">08</span><br /><span
+                        class="span_2 col_4"
+                        >Hour</span
+                      >
+                    </li>
+                    <li>
+                      <span class="span_1 bg_2">12</span><br /><span
+                        class="span_2 col_5"
+                        >Min</span
+                      >
+                    </li>
+                    <li>
+                      <span class="span_1 bg_3">43</span><br /><span
+                        class="span_2 col_6"
+                        >Sec</span
+                      >
+                    </li>
+                  </ul>
+                  <h1 class="col">
+                    Big Digital World <br />
+                    Meetup 2020
+                  </h1>
+                  <p class="col_3">
+                    Join Our International Family Today! Please
+                    <br class="br_1" />
+                    Call us For More info.
+                  </p>
+                  <h5 class="normal">
+                    <a href="#" class="button_1"
+                      ><i class="fa fa-tasks"></i> Register Now</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="center_home1i clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="header" class="clearfix cd-secondary-nav">
-	<nav class="navbar nav_t">
-		<div class="container">
-		    <div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><i class="fa fa-cart-plus col_1"></i> Shopping Mall</a>
-			</div>
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  	 <ul class="nav navbar-nav">
-				<li><a class="m_tag active_tab" href="index.html">Home</a></li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Shop<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="shop.html">Shop</a></li>
-						<li><a class="border_none" href="detail.html">Shop Detail</a></li>
-					  </ul>
-                   </li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="blog.html">Blog</a></li>
-						<li><a class="border_none" href="blog_detail.html">Blog Detail</a></li>
-					  </ul>
-                   </li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Team<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="team.html">Team</a></li>
-						<li><a class="border_none" href="team_detail.html">Team Detail</a></li>
-					  </ul>
-                   </li>
-				<li><a class="m_tag" href="contact.html">Contact</a></li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Pages<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="pricing.html">Pricing</a></li>
-					    <li><a href="cart.html">Shopping Cart</a></li>
-						<li><a class="border_none" href="checkout.html">Checkout</a></li>
-					  </ul>
-                   </li>
-				
-			</ul>
-			     <ul class="nav navbar-nav navbar-right">
+    <section id="meet">
+      <div class="container">
+        <div class="row">
+          <div class="meet_1 text-center clearfix">
+            <div class="col-sm-12">
+              <div class="grid clearfix">
+                <figure class="effect-jazz">
+                  <a href="#"
+                    ><img src="img/2.jpg" height="500" class="iw" alt="img25"
+                  /></a>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="meet_2 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="col_1">Big Digital Meetup</h1>
+              <h4>About Digital Meetup Conference 2020</h4>
+              <p>
+                Phosrescently ntiate principle centered networks via magnetic
+                services a Entusiasticaly streamline fulys tested metricels
+                apildiously evisculate standards compliant fullys tested metrics
+                without fu tureproof web services anfullys tested metrice
+                without creative desi fu tureproof web services without freproof
+                we that and a services enabled apidiously evisculate are
+                standards compliant hello weberesert ande services are afor
+                error free
+              </p>
+              <h5 class="normal">
+                <a href="#" class="button_1"
+                  ><i class="fa fa-tasks"></i> Register Now</a
+                >
+              </h5>
+              <h5 class="normal">
+                <a href="#" class="button"
+                  ><i class="fa fa-ticket"></i> Purchase Ticket</a
+                >
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-bag"></i></a>
-					  <ul class="dropdown-menu drop_cart" role="menu">
-						<li>
-						 <div class="drop_1i clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il clearfix"><h5 class="mgt col_black">2 ITEMS</h5></div>
-						  </div>
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il text-right clearfix"><h5 class="mgt"><a href="cart.html">VIEW CART</a></h5></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i1 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Nulla Quis</a> <br> <span class="normal col_black mt_top">1x - $89.00</span></h5></div>
-						  </div>
-						  <div class="col-sm-4 col-xs-4">
-						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/24.jpg" class="iw" alt="abc"></a></div>
-						  </div>
-						  <div class="col-sm-2 col-xs-2">
-						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i1 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Eget Nulla</a> <br> <span class="normal col_black mt_top">1x - $49.00</span></h5></div>
-						  </div>
-						  <div class="col-sm-4 col-xs-4">
-						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/25.jpg" class="iw" alt="abc"></a></div>
-						  </div>
-						  <div class="col-sm-2 col-xs-2">
-						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i2 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il clearfix"><h4 class="mgt col_black">TOTAL</h4></div>
-						  </div>
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il text-right clearfix"><h4 class="mgt col_black">$138.00</h4></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i3 text-center clearfix">
-						  <div class="col-sm-12 col-xs-12">
-						   <h4><a class="button" href="checkout.html">CHECKOUT</a></h4>
-						  </div>
-						 </div>
-						</li>
-					  </ul>
-                   </li>
-				   
-				 <li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-search"></i></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li>
-						  <div class="input-group">
-					<input type="text" class="form-control" placeholder="Search">
-					<span class="input-group-btn">
-						<button class="btn btn-primary" type="button">
-							<i class="fa fa-search"></i>
-						</button>
-					</span>
-				 </div>
-						</li>
-					  </ul>
-                   </li>
-		
-				
-			</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	
-	</section>
-	
-<section id="center" class="clearfix center_home">
- <div class="center_hm clearfix">
-  <div class="container">
-   <div class="row">
-    <div class="center_home1 clearfix">
-	 <div class="col-sm-6">
-	  <div class="center_home1i clearfix">
-	   <ul class="mgt">
-	    <li><span class="span_1">22</span><br><span class="span_2">Day</span></li>
-		<li><span class="span_1 bg_1">08</span><br><span class="span_2 col_4">Hour</span></li>
-		<li><span class="span_1 bg_2">12</span><br><span class="span_2 col_5">Min</span></li>
-		<li><span class="span_1 bg_3">43</span><br><span class="span_2 col_6">Sec</span></li>
-	   </ul>
-	   <h1 class="col">Big Digital World <br> Meetup 2020</h1>
-	   <p class="col_3">Join Our International Family Today! Please <br class="br_1"> Call us For More info.</p>
-	   <h5 class="normal"><a href="#" class="button_1"><i class="fa fa-tasks"></i> Register Now</a></h5>
-	  </div>
-	 </div>
-	 <div class="col-sm-6">
-	  <div class="center_home1i clearfix"></div>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+    <section id="choose">
+      <div class="container">
+        <div class="row">
+          <div class="choose_1 clearfix">
+            <div class="col-sm-6">
+              <div class="choose_1l clearfix">
+                <h4 class="mgt col_4">WHY CHOOSE US</h4>
+                <h3>Boosts Your Website Traffic!</h3>
+                <p>
+                  Nullam facilisis elit velit, in rutrum felis iaculis a. In hac
+                  habitasse platea dictumst. Cras mi libero, iaculis ac diam
+                  eget, tristique vestibulum sem. Pellentesque lobortis vel enim
+                  non tincidunt. Nam pharetra pellentesque viverra. Cras in
+                  magna pulvinar, gravida mi a, placerat lectus. Duis sit amet
+                  sagittis erat, nec euismod ex.
+                </p>
+                <h5>
+                  <a class="button" href="#"
+                    >Discover More <i class="fa fa-chevron-right"></i
+                  ></a>
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="choose_1r mgt clearfix">
+                <div class="col-sm-3 space_right">
+                  <div class="choose_1rl clearfix">
+                    <h3 class="mgt">
+                      22+<br />
+                      <span class="font_16 normal">EMPLOYEES</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-sm-9 space_left">
+                  <div class="choose_1rr clearfix">
+                    <p class="mgt">
+                      Nullam facilisis elit velit, in rutrum felis iaculis a. In
+                      hac habitasse platea dictumst. Cras mi libero.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="choose_1r clearfix">
+                <div class="col-sm-3 space_right">
+                  <div class="choose_1rl clearfix">
+                    <h3 class="mgt">
+                      142+<br />
+                      <span class="font_16 normal">PROJECTS</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-sm-9 space_left">
+                  <div class="choose_1rr clearfix">
+                    <p class="mgt">
+                      Nullam facilisis elit velit, in rutrum felis iaculis a. In
+                      hac habitasse platea dictumst. Cras mi libero.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="choose_1r clearfix">
+                <div class="col-sm-3 space_right">
+                  <div class="choose_1rl clearfix">
+                    <h3 class="mgt">
+                      92+<br />
+                      <span class="font_16 normal">CLIENTS</span>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-sm-9 space_left">
+                  <div class="choose_1rr clearfix">
+                    <p class="mgt">
+                      Nullam facilisis elit velit, in rutrum felis iaculis a. In
+                      hac habitasse platea dictumst. Cras mi libero.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="meet">
- <div class="container">
-  <div class="row">
-    <div class="meet_1 text-center clearfix">
-	 <div class="col-sm-12">
-	   <div class="grid clearfix">
-		  <figure class="effect-jazz">
-			<a href="#"><img src="img/2.jpg" height="500" class="iw" alt="img25"></a>
-		  </figure>
-	  </div>
-	 </div>
-	</div>
-	<div class="meet_2 text-center clearfix">
-	 <div class="col-sm-12">
-	   <h1 class="col_1">Big Digital Meetup</h1>
-	   <h4>About Digital Meetup Conference 2020</h4>
-	   <p>Phosrescently ntiate principle centered networks via magnetic services a Entusiasticaly streamline fulys tested metricels apildiously evisculate standards compliant fullys tested metrics without fu tureproof web services anfullys tested metrice without creative desi fu tureproof web services without freproof we that and a services enabled apidiously evisculate are standards compliant hello weberesert ande services are afor error free</p>
-	   <h5 class="normal"><a href="#" class="button_1"><i class="fa fa-tasks"></i> Register Now</a></h5>
-	   <h5 class="normal"><a href="#" class="button"><i class="fa fa-ticket"></i> Purchase Ticket</a></h5>
-	 </div>
-	</div>
-  </div>
- </div>
-</section>
+    <section id="event">
+      <div class="container">
+        <div class="row">
+          <div class="event_1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="col_1 mgt">Event Schedule</h1>
+              <h4 class="col">A Representation of the event planning</h4>
+            </div>
+          </div>
+          <div class="event_2 clearfix">
+            <div class="col-sm-6">
+              <div class="event_2l clearfix">
+                <h4 class="mgt text-center col_1">28 December 2021</h4>
+                <button class="accordion">Registration & Breakfast</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Reinventing Experiences</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Digital Event Information</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
 
-<section id="choose">
- <div class="container">
-  <div class="row">
-   <div class="choose_1 clearfix">
-    <div class="col-sm-6">
-	 <div class="choose_1l clearfix">
-	  <h4 class="mgt col_4">WHY CHOOSE US</h4>
-	  <h3>Boosts Your Website Traffic!</h3>
-	  <p>Nullam facilisis elit velit, in rutrum felis iaculis a. In hac habitasse platea dictumst. Cras mi libero, iaculis ac diam eget, tristique vestibulum sem. Pellentesque lobortis vel enim non tincidunt. Nam pharetra pellentesque viverra. Cras in magna pulvinar, gravida mi a, placerat lectus. Duis sit amet sagittis erat, nec euismod ex.</p>
-	  <h5><a class="button" href="#">Discover More <i class="fa fa-chevron-right"></i></a></h5>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="choose_1r mgt clearfix">
-	  <div class="col-sm-3 space_right">
-	   <div class="choose_1rl clearfix">
-	    <h3 class="mgt">22+<br> <span class="font_16 normal">EMPLOYEES</span></h3>
-	   </div>
-	  </div>
-	  <div class="col-sm-9 space_left">
-	   <div class="choose_1rr clearfix">
-	    <p class="mgt">Nullam facilisis elit velit, in rutrum felis iaculis a. In hac habitasse platea dictumst. Cras mi libero.</p>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="choose_1r clearfix">
-	  <div class="col-sm-3 space_right">
-	   <div class="choose_1rl clearfix">
-	    <h3 class="mgt">142+<br> <span class="font_16 normal">PROJECTS</span></h3>
-	   </div>
-	  </div>
-	  <div class="col-sm-9 space_left">
-	   <div class="choose_1rr clearfix">
-	    <p class="mgt">Nullam facilisis elit velit, in rutrum felis iaculis a. In hac habitasse platea dictumst. Cras mi libero.</p>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="choose_1r clearfix">
-	  <div class="col-sm-3 space_right">
-	   <div class="choose_1rl clearfix">
-	    <h3 class="mgt">92+<br> <span class="font_16 normal">CLIENTS</span></h3>
-	   </div>
-	  </div>
-	  <div class="col-sm-9 space_left">
-	   <div class="choose_1rr clearfix">
-	    <p class="mgt">Nullam facilisis elit velit, in rutrum felis iaculis a. In hac habitasse platea dictumst. Cras mi libero.</p>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+                <button class="accordion">Lunch Brack</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Dinner Break</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Live Performance</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="event_2l clearfix">
+                <h4 class="mgt text-center col_1">29 December 2021</h4>
+                <button class="accordion">Registration & Breakfast</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Reinventing Experiences</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Digital Event Information</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
 
-<section id="event">
- <div class="container">
-  <div class="row">
-   <div class="event_1 text-center clearfix">
-    <div class="col-sm-12">
-	 <h1 class="col_1 mgt">Event Schedule</h1>
-	 <h4 class="col">A Representation of the event planning</h4>
-	</div>
-   </div>
-   <div class="event_2 clearfix">
-    <div class="col-sm-6">
-     <div class="event_2l clearfix">
-	  <h4 class="mgt text-center col_1">28 December 2021</h4>
-	<button class="accordion">Registration & Breakfast</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Reinventing Experiences</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Digital Event Information</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
+                <button class="accordion">Lunch Brack</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Dinner Break</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+                <button class="accordion">Live Performance</button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                  <ul>
+                    <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
+                    <li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
+                    <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<button class="accordion">Lunch Brack</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Dinner Break</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Live Performance</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
+    <section id="team_h">
+      <div class="container">
+        <div class="row">
+          <div class="event_1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="col_1 mgt">Our Speakers</h1>
+              <h4>Meet Our World’s Leading Speakers</h4>
+            </div>
+          </div>
+          <div class="team_h1 clearfix">
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/3.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Lorem Magnis</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/4.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Eget Nulla</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team_h1 clearfix">
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/5.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Semper Porta</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/6.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Dapibus Diam</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="team_h1 clearfix">
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/7.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Ultrices Ligula</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="team_h1i clearfix">
+                <div class="col-sm-5 space_left">
+                  <div class="team_h1il clearfix">
+                    <img src="img/8.jpg" class="iw img-circle" alt="abc" />
+                  </div>
+                </div>
+                <div class="col-sm-7 space_right">
+                  <div class="team_h1ir clearfix">
+                    <h4 class="mgt"><a href="#">Justo Lectus</a></h4>
+                    <h6 class="col_2">Speaker</h6>
+                    <p>
+                      Completey conceplua high quality nice markes rather than
+                      long term impact human capital
+                    </p>
+                    <ul class="social-network social-circle">
+                      <li>
+                        <a href="#" class="icoRss" title="Rss"
+                          ><i class="fa fa-rss"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoFacebook" title="Facebook"
+                          ><i class="fa fa-facebook"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoTwitter" title="Twitter"
+                          ><i class="fa fa-twitter"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoGoogle" title="Google +"
+                          ><i class="fa fa-google-plus"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="#" class="icoLinkedin" title="Linkedin"
+                          ><i class="fa fa-linkedin"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-	 </div>
-	 <div class="col-sm-6">
-     <div class="event_2l clearfix">
-	  <h4 class="mgt text-center col_1">29 December 2021</h4>
-	<button class="accordion">Registration & Breakfast</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Reinventing Experiences</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Digital Event Information</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
+    <section id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="event_1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="col_1 mgt">Our Pricing Plan</h1>
+              <h4>Choose Your Plan That Fits You Best</h4>
+            </div>
+          </div>
+          <div class="pricing_1 clearfix">
+            <div class="col-sm-4">
+              <div class="pricing_1i clearfix">
+                <h3 class="mgt text-center head_1 col">
+                  1-Day-Pass <br />
+                  <span class="font_16 col_3 normal">For Normal Seating</span>
+                </h3>
+                <div class="pricing_1i1 pricing_1i1o clearfix">
+                  <h5 class="mgt">
+                    <i class="fa fa-check-circle"></i> Event Attendance
+                  </h5>
+                  <h5>
+                    <i class="fa fa-check-circle"></i> Networking Area Access
+                  </h5>
+                  <h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
+                  <h5><i class="fa fa-check-circle"></i> Lunch</h5>
+                  <h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
+                  <h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
+                </div>
+                <div class="pricing_1i2 pricing_1i2o clearfix">
+                  <div class="col-sm-5 space_left">
+                    <div class="pricing_1i2l clearfix">
+                      <h4>$22</h4>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 space_all">
+                    <div class="pricing_1i2m text-center clearfix">
+                      <span
+                        ><a href="#"><i class="fa fa-long-arrow-right"></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-5 space_right">
+                    <div class="pricing_1i2r text-right clearfix">
+                      <h5><a href="#">Get Ticket</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing_1i clearfix">
+                <h3 class="mgt text-center head_2 col">
+                  Full Pass <br />
+                  <span class="font_16 col normal">For Corporate Seating</span>
+                </h3>
+                <div class="pricing_1i1 pricing_1i1o1 clearfix">
+                  <h5 class="mgt">
+                    <i class="fa fa-check-circle"></i> Event Attendance
+                  </h5>
+                  <h5>
+                    <i class="fa fa-check-circle"></i> Networking Area Access
+                  </h5>
+                  <h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
+                  <h5><i class="fa fa-check-circle"></i> Lunch</h5>
+                  <h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
+                  <h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
+                </div>
+                <div class="pricing_1i2 pricing_1i2o1 clearfix">
+                  <div class="col-sm-5 space_left">
+                    <div class="pricing_1i2l clearfix">
+                      <h4>$30</h4>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 space_all">
+                    <div class="pricing_1i2m text-center clearfix">
+                      <span
+                        ><a href="#"><i class="fa fa-long-arrow-right"></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-5 space_right">
+                    <div class="pricing_1i2r text-right clearfix">
+                      <h5><a href="#">Get Ticket</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="pricing_1i clearfix">
+                <h3 class="mgt text-center head_3 col">
+                  VIP Pass <br />
+                  <span class="font_16 col_3 normal">For VIP Seating</span>
+                </h3>
+                <div class="pricing_1i1 pricing_1i1o2 clearfix">
+                  <h5 class="mgt">
+                    <i class="fa fa-check-circle"></i> Event Attendance
+                  </h5>
+                  <h5>
+                    <i class="fa fa-check-circle"></i> Networking Area Access
+                  </h5>
+                  <h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
+                  <h5><i class="fa fa-check-circle"></i> Lunch</h5>
+                  <h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
+                  <h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
+                </div>
+                <div class="pricing_1i2 pricing_1i2o2 clearfix">
+                  <div class="col-sm-5 space_left">
+                    <div class="pricing_1i2l clearfix">
+                      <h4>$70</h4>
+                    </div>
+                  </div>
+                  <div class="col-sm-2 space_all">
+                    <div class="pricing_1i2m text-center clearfix">
+                      <span
+                        ><a href="#"><i class="fa fa-long-arrow-right"></i></a
+                      ></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-5 space_right">
+                    <div class="pricing_1i2r text-right clearfix">
+                      <h5><a href="#">Get Ticket</a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<button class="accordion">Lunch Brack</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Dinner Break</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
-	<button class="accordion">Live Performance</button>
-	<div class="panel">
-	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-	  <ul>
-	   <li><i class="fa fa-user col_1"></i> Lorem, Semper</li>
-		<li><i class="fa fa-clock-o col_1"></i> 9:00am - 6:00am</li>
-		 <li><i class="fa fa-map-marker col_1"></i> Summer D</li>
-	  </ul>
-	</div>
+    <section id="gift">
+      <div class="container">
+        <div class="row">
+          <div class="gift_1 clearfix">
+            <div class="col-sm-6">
+              <div class="gift_1l clearfix">
+                <div class="grid clearfix">
+                  <figure class="effect-jazz">
+                    <a href="#"
+                      ><img src="img/9.jpg" class="iw" alt="img25"
+                    /></a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="gift_1r clearfix">
+                <h1 class="mgt col_1">Event Gifts</h1>
+                <h4>Our Complimentary Gifts For You</h4>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by theing readable content of a page when looking at its
+                  layout. The point info using Lorem Ipsum is that it has a
+                  more-or-less
+                </p>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <i class="fa fa-check-circle col_1"></i> Exclusive T-shirt
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <i class="fa fa-check-circle col_1"></i> Lather Bag
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <i class="fa fa-check-circle col_1"></i> Mug
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <i class="fa fa-check-circle col_1"></i> Gift Hamper
+                </h6>
+                <h5 class="col-sm-12 col-xs-12 space_left">
+                  <a class="button_1" href="#">Register Now</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
-	 </div>
-	</div>
-   </div>
-  </div>
-</section>
+    <section id="blog_h">
+      <div class="container">
+        <div class="row">
+          <div class="event_1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="col_1 mgt">Recent News</h1>
+              <h4>Start Your Remarkable Journey</h4>
+            </div>
+          </div>
+          <div class="blog_h1 clearfix">
+            <div class="col-sm-4">
+              <div class="blog_h1i">
+                <div class="blog_h1i1 clearfix">
+                  <img src="img/10.jpg" height="320" class="iw" alt="abc" />
+                </div>
+                <div class="blog_h1i2 clearfix">
+                  <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
+                </div>
+                <div class="blog_h1i3 clearfix">
+                  <span
+                    ><a class="col" href="#"
+                      ><i class="fa fa-long-arrow-left"></i></a
+                  ></span>
+                </div>
+              </div>
+              <div class="blog_h1ib clearfix">
+                <h6 class="mgt">Evento - March 24, 2020</h6>
+                <h4><a href="#">When Canines Compete: Dog Sports</a></h4>
+                <p>
+                  Meh synth Schlitz, tempor duis single-origin coffee ea next
+                  level ethnic fingerstache.
+                </p>
+                <h5>
+                  <a class="button" href="#"
+                    >Read More <i class="fa fa-chevron-right"></i
+                  ></a>
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="blog_h1i">
+                <div class="blog_h1i1 clearfix">
+                  <img src="img/11.jpg" height="320" class="iw" alt="abc" />
+                </div>
+                <div class="blog_h1i2 clearfix">
+                  <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
+                </div>
+                <div class="blog_h1i3 clearfix">
+                  <span
+                    ><a class="col" href="#"
+                      ><i class="fa fa-long-arrow-left"></i></a
+                  ></span>
+                </div>
+              </div>
+              <div class="blog_h1ib clearfix">
+                <h6 class="mgt">Evento - March 24, 2020</h6>
+                <h4>
+                  <a href="#">7 Tips To Help With Dog Separation Anxiety</a>
+                </h4>
+                <p>
+                  Meh synth Schlitz, tempor duis single-origin coffee ea next
+                  level ethnic fingerstache.
+                </p>
+                <h5>
+                  <a class="button" href="#"
+                    >Read More <i class="fa fa-chevron-right"></i
+                  ></a>
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="blog_h1i">
+                <div class="blog_h1i1 clearfix">
+                  <img src="img/12.jpg" height="320" class="iw" alt="abc" />
+                </div>
+                <div class="blog_h1i2 clearfix">
+                  <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
+                </div>
+                <div class="blog_h1i3 clearfix">
+                  <span
+                    ><a class="col" href="#"
+                      ><i class="fa fa-long-arrow-left"></i></a
+                  ></span>
+                </div>
+              </div>
+              <div class="blog_h1ib clearfix">
+                <h6 class="mgt">Evento - March 24, 2020</h6>
+                <h4>
+                  <a href="#">How Marching For Science Risks Politicizing It</a>
+                </h4>
+                <p>
+                  Meh synth Schlitz, tempor duis single-origin coffee ea next
+                  level ethnic fingerstache.
+                </p>
+                <h5>
+                  <a class="button" href="#"
+                    >Read More <i class="fa fa-chevron-right"></i
+                  ></a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="team_h">
- <div class="container">
-  <div class="row">
-   <div class="event_1 text-center clearfix">
-    <div class="col-sm-12">
-	 <h1 class="col_1 mgt">Our Speakers</h1>
-	 <h4>Meet Our World’s Leading Speakers</h4>
-	</div>
-   </div>
-   <div class="team_h1 clearfix">
-    <div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/3.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Lorem Magnis</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/4.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Eget Nulla</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-   </div>
-   <div class="team_h1 clearfix">
-    <div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/5.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Semper Porta</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/6.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Dapibus Diam</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-   </div>
-   <div class="team_h1 clearfix">
-    <div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/7.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Ultrices Ligula</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="team_h1i clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="team_h1il clearfix">
-		  <img src="img/8.jpg" class="iw img-circle" alt="abc">
-		</div>
-	   </div>
-	   <div class="col-sm-7 space_right">
-	    <div class="team_h1ir clearfix">
-		 <h4 class="mgt"><a href="#">Justo Lectus</a></h4>
-		 <h6 class="col_2">Speaker</h6>
-		 <p>Completey conceplua high quality nice markes rather than long term impact human capital</p>
-		 <ul class="social-network social-circle">
-		<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-		<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-		<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-		<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-       </ul>
-		</div>
-	   </div>
-	 </div>
-	</div>
-   </div>
-   </div>
-  </div>
-</section>
+    <section id="prom">
+      <div class="container">
+        <div class="row">
+          <div class="prom_1 clearfix">
+            <div class="col-sm-6">
+              <div class="prom_1l clearfix">
+                <div class="grid clearfix">
+                  <figure class="effect-jazz">
+                    <a href="#"
+                      ><img
+                        src="img/13.jpg"
+                        height="580"
+                        class="iw"
+                        alt="img25"
+                    /></a>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="prom_1r clearfix">
+                <h5 class="mgt col_4">ANALYSIS</h5>
+                <h3>Get Free SEO Analysis?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                  bibendum auctor justo, ac bibendum neque sollicitudin ac.
+                </p>
+                <input
+                  class="form-control"
+                  placeholder="Your Name"
+                  type="text"
+                />
+                <input class="form-control" placeholder="Email" type="text" />
+                <input
+                  class="form-control"
+                  placeholder="Your Phone"
+                  type="text"
+                />
+                <input class="form-control" placeholder="Website" type="text" />
+                <h5><a class="button" href="#">SUBMIT </a></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="pricing">
- <div class="container">
-  <div class="row">
-   <div class="event_1 text-center clearfix">
-    <div class="col-sm-12">
-	 <h1 class="col_1 mgt">Our Pricing Plan</h1>
-	 <h4>Choose Your Plan That Fits You Best</h4>
-	</div>
-   </div>
-   <div class="pricing_1 clearfix">
-    <div class="col-sm-4">
-	 <div class="pricing_1i clearfix">
-	   <h3 class="mgt text-center head_1 col">1-Day-Pass <br>
-<span class="font_16 col_3 normal">For Normal Seating</span></h3>
-      <div class="pricing_1i1 pricing_1i1o clearfix">
-	    <h5 class="mgt"><i class="fa fa-check-circle"></i> Event Attendance</h5>
-		<h5><i class="fa fa-check-circle"></i> Networking Area Access</h5>
-		<h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
-		<h5><i class="fa fa-check-circle"></i> Lunch</h5>
-		<h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
-		<h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
-	  </div>
-	  <div class="pricing_1i2 pricing_1i2o clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="pricing_1i2l clearfix">
-		 <h4>$22</h4>
-		</div>
-	   </div>
-	   <div class="col-sm-2 space_all">
-	    <div class="pricing_1i2m text-center clearfix">
-		  <span><a href="#"><i class="fa fa-long-arrow-right"></i></a></span>
-		</div>
-	   </div>
-	   <div class="col-sm-5 space_right">
-	    <div class="pricing_1i2r text-right clearfix">
-		 <h5><a href="#">Get Ticket</a></h5>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-	<div class="col-sm-4">
-	 <div class="pricing_1i clearfix">
-	   <h3 class="mgt text-center head_2 col">Full Pass <br>
-<span class="font_16 col normal">For Corporate Seating</span></h3>
-      <div class="pricing_1i1 pricing_1i1o1 clearfix">
-	    <h5 class="mgt"><i class="fa fa-check-circle"></i> Event Attendance</h5>
-		<h5><i class="fa fa-check-circle"></i> Networking Area Access</h5>
-		<h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
-		<h5><i class="fa fa-check-circle"></i> Lunch</h5>
-		<h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
-		<h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
-	  </div>
-	  <div class="pricing_1i2 pricing_1i2o1 clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="pricing_1i2l clearfix">
-		 <h4>$30</h4>
-		</div>
-	   </div>
-	   <div class="col-sm-2 space_all">
-	    <div class="pricing_1i2m text-center clearfix">
-		  <span><a href="#"><i class="fa fa-long-arrow-right"></i></a></span>
-		</div>
-	   </div>
-	   <div class="col-sm-5 space_right">
-	    <div class="pricing_1i2r text-right clearfix">
-		 <h5><a href="#">Get Ticket</a></h5>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-	<div class="col-sm-4">
-	 <div class="pricing_1i clearfix">
-	   <h3 class="mgt text-center head_3 col">VIP Pass <br>
-<span class="font_16 col_3 normal">For VIP Seating</span></h3>
-      <div class="pricing_1i1 pricing_1i1o2 clearfix">
-	    <h5 class="mgt"><i class="fa fa-check-circle"></i> Event Attendance</h5>
-		<h5><i class="fa fa-check-circle"></i> Networking Area Access</h5>
-		<h5><i class="fa fa-check-circle"></i> Tea And Coffee</h5>
-		<h5><i class="fa fa-check-circle"></i> Lunch</h5>
-		<h5><i class="fa fa-check-circle"></i> Free Wifi</h5>
-		<h5><i class="fa fa-check-circle"></i> 3 Lottery Ticket</h5>
-	  </div>
-	  <div class="pricing_1i2 pricing_1i2o2 clearfix">
-	   <div class="col-sm-5 space_left">
-	    <div class="pricing_1i2l clearfix">
-		 <h4>$70</h4>
-		</div>
-	   </div>
-	   <div class="col-sm-2 space_all">
-	    <div class="pricing_1i2m text-center clearfix">
-		  <span><a href="#"><i class="fa fa-long-arrow-right"></i></a></span>
-		</div>
-	   </div>
-	   <div class="col-sm-5 space_right">
-	    <div class="pricing_1i2r text-right clearfix">
-		 <h5><a href="#">Get Ticket</a></h5>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-   </div>
-   </div>
-  </div>
-</section>
+    <section id="subs">
+      <div class="container">
+        <div class="row">
+          <div class="subs1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="mgt col_1">Subscribe to our newsletter</h1>
+              <p>Get updates for new classes and new products</p>
+              <input
+                class="form-control"
+                placeholder="Enter email here"
+                type="text"
+              />
+              <h5><a class="button" href="#">Subscribe</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="gift">
- <div class="container">
-  <div class="row">
-   <div class="gift_1 clearfix">
-     <div class="col-sm-6">
-	  <div class="gift_1l clearfix">
-	    <div class="grid clearfix">
-		  <figure class="effect-jazz">
-			<a href="#"><img src="img/9.jpg"  class="iw" alt="img25"></a>
-		  </figure>
-	  </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-6">
-	  <div class="gift_1r clearfix">
-	   <h1 class="mgt col_1">Event Gifts</h1>
-	   <h4>Our Complimentary Gifts For You</h4>
-	   <p>It is a long established fact that a reader will be distracted by theing readable content of a page when looking at its layout. The point info using Lorem Ipsum is that it has a more-or-less</p>
-	   <h6 class="col-sm-12 col-xs-6 space_left"><i class="fa fa-check-circle col_1"></i> Exclusive T-shirt</h6>
-	   <h6 class="col-sm-12 col-xs-6 space_left"><i class="fa fa-check-circle col_1"></i> Lather Bag</h6>
-	   <h6 class="col-sm-12 col-xs-6 space_left"><i class="fa fa-check-circle col_1"></i> Mug</h6>
-	   <h6 class="col-sm-12 col-xs-6 space_left"><i class="fa fa-check-circle col_1"></i> Gift Hamper</h6>
-	   <h5 class="col-sm-12 col-xs-12 space_left"><a class="button_1" href="#">Register Now</a></h5>
-	  </div>
-	 </div>
-   </div>
-   </div>
-  </div>
-</section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer_1 clearfix">
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <a class="navbar-brand" href="index.html"
+                  ><i class="fa fa-suitcase col_1"></i>Evento</a
+                >
+                <p>
+                  <i class="fa fa-map-marker col_1"></i> 172 - Kingdom Oxford
+                  Street
+                </p>
+                <p>
+                  <i class="fa fa-envelope col_1"></i>
+                  <a href="#">info#gmail.com</a>
+                </p>
+                <p>
+                  <a href="#"
+                    ><i class="fa fa-phone col_1"></i> (+00) 123-456-789</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Working House</h4>
+                <p>
+                  Our support available to help you 24 hours a day. We provide
+                  our best.
+                </p>
+                <p>Mon – Fri : 08.00 am – 20.00 pm</p>
+                <p>Saturday : 09.00 am – 20.00 pm</p>
+                <p>Sunday : We Are Closed</p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Quick Links</h4>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Boarding Services</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Grooming Services</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Dog Boarding</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Pet Training</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Pet Adoptions</a>
+                </h6>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Newsletter</h4>
+                <p>
+                  Subscribe To Our Newsletter And Get Daily 10% Off Your First
+                  Purchase.
+                </p>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search Here..."
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_2 clearfix">
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-envelope-o"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Email Address</h5>
+                    <h6><a href="#">info@gmail.com</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-phone"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Phone Number</h5>
+                    <h6><a href="#"> (+00) 123-456-789</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-map-marker"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Location</h5>
+                    <h6>20 Semper Road</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-clock-o"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Open Hours:</h5>
+                    <h6>Mon-Sat: 9 am – 6 pm</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_3 clearfix">
+            <div class="col-sm-7">
+              <div class="footer_3r clearfix">
+                <p class="mgt">
+                  © 2013 Your Website Name. All Rights Reserved | Design by
+                  <a class="col_1" href="http://www.templateonweb.com"
+                    >TemplateOnWeb</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="footer_3l text-right clearfix">
+                <ul class="mgt">
+                  <li><a href="#">Our Policy</a></li>
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li class="border_none"><a href="#">Site Map</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="blog_h">
- <div class="container">
-  <div class="row">
-   <div class="event_1 text-center clearfix">
-    <div class="col-sm-12">
-	 <h1 class="col_1 mgt">Recent News</h1>
-	 <h4>Start Your Remarkable Journey</h4>
-	</div>
-   </div>
-   <div class="blog_h1 clearfix">
-    <div class="col-sm-4">
-	 <div class="blog_h1i">
-	  <div class="blog_h1i1 clearfix">
-	   <img src="img/10.jpg" height="320" class="iw" alt="abc">
-	  </div>
-	  <div class="blog_h1i2 clearfix">
-	   <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
-	  </div>
-	  <div class="blog_h1i3 clearfix">
-	   <span><a class="col" href="#"><i class="fa fa-long-arrow-left"></i></a></span>
-	  </div>
-	 </div>
-	 <div class="blog_h1ib clearfix">
-	  <h6 class="mgt"> Evento - March 24, 2020</h6>
-	  <h4><a href="#">When Canines Compete: Dog Sports</a></h4>
-	  <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache. </p>
-	  <h5><a class="button" href="#">Read More <i class="fa fa-chevron-right"></i></a></h5>
-	 </div>
-	</div>
-	<div class="col-sm-4">
-	 <div class="blog_h1i">
-	  <div class="blog_h1i1 clearfix">
-	   <img src="img/11.jpg" height="320" class="iw" alt="abc">
-	  </div>
-	  <div class="blog_h1i2 clearfix">
-	   <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
-	  </div>
-	  <div class="blog_h1i3 clearfix">
-	   <span><a class="col" href="#"><i class="fa fa-long-arrow-left"></i></a></span>
-	  </div>
-	 </div>
-	 <div class="blog_h1ib clearfix">
-	  <h6 class="mgt"> Evento - March 24, 2020</h6>
-	  <h4><a href="#">7 Tips To Help With Dog Separation Anxiety</a></h4>
-	  <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache. </p>
-	  <h5><a class="button" href="#">Read More <i class="fa fa-chevron-right"></i></a></h5>
-	 </div>
-	</div>
-	<div class="col-sm-4">
-	 <div class="blog_h1i">
-	  <div class="blog_h1i1 clearfix">
-	   <img src="img/12.jpg" height="320" class="iw" alt="abc">
-	  </div>
-	  <div class="blog_h1i2 clearfix">
-	   <h6 class="mgt"><a href="#">GRAPHICS</a></h6>
-	  </div>
-	  <div class="blog_h1i3 clearfix">
-	   <span><a class="col" href="#"><i class="fa fa-long-arrow-left"></i></a></span>
-	  </div>
-	 </div>
-	 <div class="blog_h1ib clearfix">
-	  <h6 class="mgt"> Evento - March 24, 2020</h6>
-	  <h4><a href="#">How Marching For Science Risks Politicizing It</a></h4>
-	  <p>Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic fingerstache. </p>
-	  <h5><a class="button" href="#">Read More <i class="fa fa-chevron-right"></i></a></h5>
-	 </div>
-	</div>
-   </div>
-   </div>
-  </div>
-</section>
+    <script>
+      $(document).ready(function () {
+        /*****Fixed Menu******/
+        var secondaryNav = $(".cd-secondary-nav"),
+          secondaryNavTopPosition = secondaryNav.offset().top;
+        navbar_height = document.querySelector(".navbar").offsetHeight;
 
-<section id="prom">
- <div class="container">
-  <div class="row">
-   <div class="prom_1 clearfix">
-    <div class="col-sm-6">
-      <div class="prom_1l clearfix">
-	    <div class="grid clearfix">
-		  <figure class="effect-jazz">
-			<a href="#"><img src="img/13.jpg" height="580" class="iw" alt="img25"></a>
-		  </figure>
-	  </div>
-	  </div>
-	</div>
-	<div class="col-sm-6">
-      <div class="prom_1r clearfix">
-	   <h5 class="mgt col_4">ANALYSIS</h5>
-	   <h3>Get Free SEO Analysis?</h3>
-	   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras bibendum auctor justo, ac bibendum neque sollicitudin ac.</p>
-	   <input class="form-control" placeholder="Your Name" type="text">
-	   <input class="form-control" placeholder="Email" type="text">
-	   <input class="form-control" placeholder="Your Phone" type="text">
-	   <input class="form-control" placeholder="Website" type="text">
-	   <h5><a class="button" href="#">SUBMIT </a></h5>
-	  </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > secondaryNavTopPosition + navbar_height) {
+            secondaryNav.addClass("is-fixed");
+            document.body.style.paddingTop = navbar_height + "px";
+          } else {
+            secondaryNav.removeClass("is-fixed");
+            document.body.style.paddingTop = "0";
+          }
+        });
+      });
+    </script>
 
-<section id="subs">
- <div class="container">
-  <div class="row">
-   <div class="subs1 text-center clearfix">
-	<div class="col-sm-12">
-	  <h1 class="mgt col_1">Subscribe to our newsletter</h1>
-	  <p>Get updates for new classes and new products </p>
-	  <input class="form-control" placeholder="Enter email here" type="text">
-	  <h5><a class="button" href="#">Subscribe</a></h5>
-	</div>
-   </div>
- 
-  </div>
- </div>
-</section>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
 
-<section id="footer">
- <div class="container">
-  <div class="row">
-    <div class="footer_1 clearfix">
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <a class="navbar-brand" href="index.html"><i class="fa fa-suitcase col_1"></i>Evento</a>
-		<p><i class="fa fa-map-marker col_1"></i> 172 - Kingdom Oxford Street</p>
-		<p><i class="fa fa-envelope col_1"></i> <a href="#">info#gmail.com</a></p>
-		<p><a href="#"><i class="fa fa-phone col_1"></i> (+00) 123-456-789</a></p>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Working House</h4>
-		<p>Our support available to help you 24 hours a day. We provide our best.</p>
-        <p>Mon – Fri : 08.00 am – 20.00 pm</p>
-		<p>Saturday : 09.00 am – 20.00 pm</p>
-		<p>Sunday : We Are Closed</p>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Quick Links</h4>
-	    <h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Boarding Services</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Grooming Services</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Dog Boarding</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Pet Training</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Pet Adoptions</a></h6>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Newsletter</h4>
-	    <p>Subscribe To Our Newsletter And Get Daily 10% Off Your First Purchase.</p>
-		<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search Here...">
-				<span class="input-group-btn">
-					<button class="btn btn-primary" type="button">
-						<i class="fa fa-search"></i></button>
-				</span>
-		</div>
-	  </div>
-	 </div>
-	</div>
-	<div class="footer_2 clearfix">
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-envelope-o"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Email Address</h5>
-		 <h6><a href="#">info@gmail.com</a></h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-phone"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Phone Number</h5>
-		 <h6><a href="#"> (+00) 123-456-789</a></h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-map-marker"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt"> Location</h5>
-		 <h6>20 Semper Road</h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-clock-o"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Open Hours:</h5>
-		 <h6>Mon-Sat: 9 am – 6 pm</h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-	<div class="footer_3 clearfix">
-	 <div class="col-sm-7">
-	  <div class="footer_3r clearfix">
-	    <p class="mgt">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_1" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
-	  </div>
-	 </div>
-	 <div class="col-sm-5">
-	  <div class="footer_3l text-right clearfix">
-	    <ul class="mgt">
-	    <li><a href="#">Our Policy</a> </li>
-		<li><a href="#">Terms &amp; Conditions</a></li>
-		<li class="border_none"><a href="#">Site Map</a></li>
-	  </ul>
-	  </div>
-	 </div>
-	</div>
-  </div>
- </div>
-</section>
-	
-<script>
-$(document).ready(function(){
-	/*****Fixed Menu******/
-	var secondaryNav = $('.cd-secondary-nav'),
-	   secondaryNavTopPosition = secondaryNav.offset().top;
-	   navbar_height = document.querySelector('.navbar').offsetHeight;
-	   
-		$(window).on('scroll', function(){
-		    if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
-				secondaryNav.addClass('is-fixed');	
-				document.body.style.paddingTop = navbar_height + 'px';
-				
-			} else {
-				secondaryNav.removeClass('is-fixed');
-				document.body.style.paddingTop = '0'
-			}
-		});	
-		
-});
-</script>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-
-</body>
- 
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
+  </body>
 </html>
