@@ -1,766 +1,1172 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Events</title>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/global.css" rel="stylesheet">
-	<link href="css/shop.css" rel="stylesheet">
-	<link href="css/blog.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
-	<script src="js/jquery-2.1.1.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/shop.css" rel="stylesheet" />
+    <link href="css/blog.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
   </head>
-<body>
+  <body>
+    <section id="top">
+      <div class="container">
+        <div class="row">
+          <div class="top_1 clearfix">
+            <div class="col-sm-3">
+              <div class="top_1l clearfix">
+                <p class="col"><i class="fa fa-phone"></i> +91-123-4567 6587</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="top_1r text-center clearfix">
+                <ul class="mgt">
+                  <li>
+                    <a href="#"><i class="fa fa-skype"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-vimeo"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-rss"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="top_1rn text-right clearfix">
+                <h5 class="mgt">
+                  <a class="m_tag button mgt" href="#"
+                    ><i class="fa fa-ticket"></i> Purchase Ticket
+                  </a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="top">
- <div class="container">
-  <div class="row">
-   <div class="top_1 clearfix">
-    <div class="col-sm-3">
-	 <div class="top_1l clearfix">
-	   <p class="col"><i class="fa fa-phone"></i> +91-123-4567 6587</p>
-	 </div>
-	</div>
-	<div class="col-sm-6">
-	 <div class="top_1r text-center clearfix">
-	   <ul class="mgt">
-	    <li><a href="#"><i class="fa fa-skype"></i></a></li>
-		<li><a href="#"><i class="fa fa-vimeo"></i></a></li>
-		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-		<li><a href="#"><i class="fa fa-rss"></i></a></li>
-	   </ul>
-	 </div>
-	</div>
-	<div class="col-sm-3">
-	 <div class="top_1rn text-right clearfix">
-	    <h5 class="mgt"><a class="m_tag button mgt" href="#"><i class="fa fa-ticket"></i> Purchase Ticket </a></h5>
-	 </div>
-	</div>
-   </div>
-  </div>
- </div>
-</section>
+    <section id="header" class="clearfix cd-secondary-nav">
+      <nav class="navbar nav_t">
+        <div class="container">
+          <div class="navbar-header page-scroll">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"
+              ><i class="fa fa-cart-plus col_1"></i> Shopping Mall</a
+            >
+          </div>
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav">
+              <li><a class="m_tag" href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a
+                  class="m_tag active_tab"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Shop<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="shop.html">Shop</a></li>
+                  <li>
+                    <a class="border_none" href="detail.html">Shop Detail</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Blog<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li>
+                    <a class="border_none" href="blog_detail.html"
+                      >Blog Detail</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Team<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="team.html">Team</a></li>
+                  <li>
+                    <a class="border_none" href="team_detail.html"
+                      >Team Detail</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a class="m_tag" href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  >Pages<span class="caret"></span
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="cart.html">Shopping Cart</a></li>
+                  <li>
+                    <a class="border_none" href="checkout.html">Checkout</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a class="m_tag" href="login.html">Login</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  ><i class="fa fa-shopping-bag"></i
+                ></a>
+                <ul class="dropdown-menu drop_cart" role="menu">
+                  <li>
+                    <div class="drop_1i clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il clearfix">
+                          <h5 class="mgt col_black">2 ITEMS</h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il text-right clearfix">
+                          <h5 class="mgt"><a href="cart.html">VIEW CART</a></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i1 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1i1l clearfix">
+                          <h5 class="mgt bold">
+                            <a href="#">Nulla Quis</a> <br />
+                            <span class="normal col_black mt_top"
+                              >1x - $89.00</span
+                            >
+                          </h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-4">
+                        <div class="drop_1i1r clearfix">
+                          <a href="#"
+                            ><img src="img/24.jpg" class="iw" alt="abc"
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-sm-2 col-xs-2">
+                        <div class="drop_1i1l text-right clearfix">
+                          <h6 class="mgt bold">
+                            <span><i class="fa fa-remove"></i></span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i1 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1i1l clearfix">
+                          <h5 class="mgt bold">
+                            <a href="#">Eget Nulla</a> <br />
+                            <span class="normal col_black mt_top"
+                              >1x - $49.00</span
+                            >
+                          </h5>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-xs-4">
+                        <div class="drop_1i1r clearfix">
+                          <a href="#"
+                            ><img src="img/25.jpg" class="iw" alt="abc"
+                          /></a>
+                        </div>
+                      </div>
+                      <div class="col-sm-2 col-xs-2">
+                        <div class="drop_1i1l text-right clearfix">
+                          <h6 class="mgt bold">
+                            <span><i class="fa fa-remove"></i></span>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i2 clearfix">
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il clearfix">
+                          <h4 class="mgt col_black">TOTAL</h4>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-xs-6">
+                        <div class="drop_1il text-right clearfix">
+                          <h4 class="mgt col_black">$138.00</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="drop_1i3 text-center clearfix">
+                      <div class="col-sm-12 col-xs-12">
+                        <h4>
+                          <a class="button" href="checkout.html">CHECKOUT</a>
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
 
-<section id="header" class="clearfix cd-secondary-nav">
-	<nav class="navbar nav_t">
-		<div class="container">
-		    <div class="navbar-header page-scroll">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><i class="fa fa-cart-plus col_1"></i> Shopping Mall</a>
-			</div>
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			  	 <ul class="nav navbar-nav">
-				<li><a class="m_tag" href="index.html">Home</a></li>
-				<li class="dropdown">
-					  <a class="m_tag active_tab" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Shop<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="shop.html">Shop</a></li>
-						<li><a class="border_none" href="detail.html">Shop Detail</a></li>
-					  </ul>
-                   </li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Blog<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="blog.html">Blog</a></li>
-						<li><a class="border_none" href="blog_detail.html">Blog Detail</a></li>
-					  </ul>
-                   </li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Team<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="team.html">Team</a></li>
-						<li><a class="border_none" href="team_detail.html">Team Detail</a></li>
-					  </ul>
-                   </li>
-				<li><a class="m_tag" href="contact.html">Contact</a></li>
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Pages<span class="caret"></span></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li><a href="pricing.html">Pricing</a></li>
-					    <li><a href="cart.html">Shopping Cart</a></li>
-						<li><a class="border_none" href="checkout.html">Checkout</a></li>
-					  </ul>
-                   </li>
-				   <li><a class="m_tag" href="login.html">Login</a></li>
-				
-			</ul>
-			     <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a
+                  class="m_tag"
+                  href="#"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-expanded="false"
+                  ><i class="fa fa-search"></i
+                ></a>
+                <ul class="dropdown-menu drop_3" role="menu">
+                  <li>
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search"
+                      />
+                      <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button">
+                          <i class="fa fa-search"></i>
+                        </button>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
+    </section>
 
-				<li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-shopping-bag"></i></a>
-					  <ul class="dropdown-menu drop_cart" role="menu">
-						<li>
-						 <div class="drop_1i clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il clearfix"><h5 class="mgt col_black">2 ITEMS</h5></div>
-						  </div>
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il text-right clearfix"><h5 class="mgt"><a href="cart.html">VIEW CART</a></h5></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i1 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Nulla Quis</a> <br> <span class="normal col_black mt_top">1x - $89.00</span></h5></div>
-						  </div>
-						  <div class="col-sm-4 col-xs-4">
-						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/24.jpg" class="iw" alt="abc"></a></div>
-						  </div>
-						  <div class="col-sm-2 col-xs-2">
-						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i1 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Eget Nulla</a> <br> <span class="normal col_black mt_top">1x - $49.00</span></h5></div>
-						  </div>
-						  <div class="col-sm-4 col-xs-4">
-						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/25.jpg" class="iw" alt="abc"></a></div>
-						  </div>
-						  <div class="col-sm-2 col-xs-2">
-						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i2 clearfix">
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il clearfix"><h4 class="mgt col_black">TOTAL</h4></div>
-						  </div>
-						  <div class="col-sm-6 col-xs-6">
-						   <div class="drop_1il text-right clearfix"><h4 class="mgt col_black">$138.00</h4></div>
-						  </div>
-						 </div>
-						 <div class="drop_1i3 text-center clearfix">
-						  <div class="col-sm-12 col-xs-12">
-						   <h4><a class="button" href="checkout.html">CHECKOUT</a></h4>
-						  </div>
-						 </div>
-						</li>
-					  </ul>
-                   </li>
-				   
-				 <li class="dropdown">
-					  <a class="m_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-search"></i></a>
-					  <ul class="dropdown-menu drop_3" role="menu">
-					    <li>
-						  <div class="input-group">
-					<input type="text" class="form-control" placeholder="Search">
-					<span class="input-group-btn">
-						<button class="btn btn-primary" type="button">
-							<i class="fa fa-search"></i></button>
-					</span>
-				 </div>
-						</li>
-					  </ul>
-                   </li>
-		
-				
-			</ul>
-			</div>
-			<!-- /.navbar-collapse -->
-		</div>
-		<!-- /.container-fluid -->
-	</nav>
-	
-	</section>
-	
-<section id="center" class="center_o clearfix">
- <div class="container">
-   <div class="row">
-    <div class="col-sm-12">
-	 <div class="center_o1 text-center">
-	   <h1 class="mgt col">Shop</h1>
-	   <h4 class="col_1"><a class="col" href="#">Home</a> / Shop</h4>
-	 </div>
-	</div>
-   </div>
-  </div>
-</section>
+    <section id="center" class="center_o clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="center_o1 text-center">
+              <h1 class="mgt col">Shop</h1>
+              <h4 class="col_1"><a class="col" href="#">Home</a> / Shop</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="shop">
- <div class="container">
-  <div class="row">
-    <div class="shop_1 clearfix">
-	 <div class="col-sm-9">
-	  <div class="shop_1rm clearfix">
-	   <div class="shop_1r1 clearfix">
-	    <div class="col-sm-8">
-		 <div class="shop_1r1l clearfix">
-		  <p class="mgt">Showing 1–9 of 17 results</p>
-		 </div>
-		</div>
-		<div class="col-sm-4">
-		 <div class="shop_1r1r clearfix">
-		  <select class="form-control" id="subject" name="subject">
-		<option>Price, Low To High</option>
-		<option>Price, High To Low</option>
-		<option>Alphabetically, A-Z</option>
-		<option>Alphabetically, Z-A</option>
-		<option>Date, New To Old</option>
-		</select>
-		 </div>
-		</div>
-	  </div>
-	   <div class="feature_2r2 clearfix">
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/24.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Semper Porta Diam</a></h5>
-			<h4 class="col_1">$65</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/25.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Eget Nulla Porta</a></h5>
-			<h4 class="col_1">$95</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/26.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
-			<h4 class="col_1">$85</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		</div>
-		<div class="feature_2r2 clearfix">
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/27.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Semper Porta Diam</a></h5>
-			<h4 class="col_1">$65</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/28.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Eget Nulla Porta</a></h5>
-			<h4 class="col_1">$95</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/29.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
-			<h4 class="col_1">$85</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		</div>
-		<div class="feature_2r2 clearfix">
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/30.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Semper Porta Diam</a></h5>
-			<h4 class="col_1">$65</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/31.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Eget Nulla Porta</a></h5>
-			<h4 class="col_1">$95</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			</span>
-		   </div>
-		  </div>
-		  <div class="col-sm-4">
-		   <div class="feature_2r2l clearfix">
-		    <div class="feature_2r2l1 clearfix">
-			   <div class="grid clearfix">
-		         <figure class="effect-jazz">
-			<a href="detail.html"><img src="img/32.jpg" class="iw" alt="img25"></a>
-		  </figure>
-	         </div>
-			</div>
-			<div class="feature_2r2l2 clearfix">
-			   <h6 class="mgt"><a href="detail.html">25%</a></h6>
-			</div>
-			<div class="feature_2r2l3 clearfix">
-			   <ul class="mgt">
-			    <li><a href="detail.html"><i class="fa fa-shopping-cart"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-recycle"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-heart-o"></i></a></li>
-				<li><a href="detail.html"><i class="fa fa-eye"></i></a></li>
-			   </ul>
-			</div>
-		   </div>
-		   <div class="feature_2r2lb clearfix">
-		    <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
-			<h4 class="col_1">$85</h4>
-			<span>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-o"></i>
-			</span>
-		   </div>
-		  </div>
-		</div>
-		<div class="pages clearfix text-center">
-		 <ul>
-			<li><a href="detail.html"><i class="fa fa-chevron-left"></i></a></li>
-			<li class="act"><a href="detail.html">1</a></li>
-			<li><a href="detail.html">2</a></li>
-			<li><a href="detail.html">3</a></li>
-			<li><a href="detail.html">4</a></li>
-			<li><a href="detail.html">5</a></li>
-			<li><a href="detail.html">6</a></li>
-			<li><a href="detail.html"><i class="fa fa-chevron-right"></i></a></li>
-		   </ul>
-	  </div>
-	 </div>
-	 </div>
-	 <div class="col-sm-3 space_left">
-	  <div class="blog_pg1r clearfix">
-	  <div class="blog_pg1r1 mgt clearfix">
-	    <h4 class="mgt">Search Your Keywords</h4>
-		<hr class="hr_1 mgl">
-		<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search Here...">
-				<span class="input-group-btn">
-					<button class="btn btn-primary" type="button">
-						<i class="fa fa-search"></i></button>
-				</span>
-		</div>
-	  </div>
-	  <div class="blog_pg1r1 blog_pg1r1o clearfix">
-	    <h4 class="mgt">Post Categories</h4>
-		<hr class="hr_1 mgl">
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Show all <span class="pull-right">16</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Business <span class="pull-right">18</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Creative <span class="pull-right">17</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Inspiation <span class="pull-right">26</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> News <span class="pull-right">28</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Photography <span class="pull-right">27</span></a></h5>
-		<h5 class="normal pdb border_none"><a href="detail.html"><i class="fa fa-hand-o-right"></i> Smart <span class="pull-right">22</span></a></h5>
-	  </div>
-	  <div class="blog_pg1r2 clearfix">
-	    <h4 class="mgt">Recent Post</h4>
-		<hr class="hr_1 mgl">
-        <div class="blog_pg1r2i mgt clearfix">
-		 <a href="detail.html"><img src="img/17.jpg" alt="img25"></a>
-		 <p class="mgt"><a href="detail.html">Poor People’s Campaign Our Resources</a></p>
-		 <h6>04 February 2019</h6>
-		</div>
-		<div class="blog_pg1r2i clearfix">
-		 <a href="detail.html"><img src="img/18.jpg" alt="img25"></a>
-		 <p class="mgt"><a href="detail.html">Poor People’s Campaign Our Resources</a></p>
-		 <h6>04 February 2019</h6>
-		</div>
-		<div class="blog_pg1r2i clearfix">
-		 <a href="detail.html"><img src="img/19.jpg" alt="img25"></a>
-		 <p class="mgt"><a href="detail.html">Poor People’s Campaign Our Resources</a></p>
-		 <h6>04 February 2019</h6>
-		</div>
-		
-		<div class="blog_pg1r2i pdb border_none clearfix">
-		 <a href="detail.html"><img src="img/17.jpg" alt="img25"></a>
-		 <p class="mgt"><a href="detail.html">Poor People’s Campaign Our Resources</a></p>
-		 <h6>04 February 2019</h6>
-		</div>
-	  </div>
-	  <div class="blog_pg1r1 blog_pg1r1o clearfix">
-	    <h4 class="mgt">Our Archive</h4>
-		<hr class="hr_1 mgl">
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> January <span class="pull-right">2021</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> February <span class="pull-right">2020</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> March <span class="pull-right">2021</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> August <span class="pull-right">2019</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> September <span class="pull-right">2018</span></a></h5>
-		<h5 class="normal"><a href="detail.html"><i class="fa fa-calendar"></i> October <span class="pull-right">2016</span></a></h5>
-		<h5 class="normal pdb border_none"><a href="detail.html"><i class="fa fa-calendar"></i> December <span class="pull-right">2014</span></a></h5>
-	  </div>
+    <section id="shop">
+      <div class="container">
+        <div class="row">
+          <div class="shop_1 clearfix">
+            <div class="col-sm-9">
+              <div class="shop_1rm clearfix">
+                <div class="shop_1r1 clearfix">
+                  <div class="col-sm-8">
+                    <div class="shop_1r1l clearfix">
+                      <p class="mgt">Showing 1–9 of 17 results</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="shop_1r1r clearfix">
+                      <select class="form-control" id="subject" name="subject">
+                        <option>Price, Low To High</option>
+                        <option>Price, High To Low</option>
+                        <option>Alphabetically, A-Z</option>
+                        <option>Alphabetically, Z-A</option>
+                        <option>Date, New To Old</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature_2r2 clearfix">
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/24.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Semper Porta Diam</a></h5>
+                      <h4 class="col_1">$65</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/25.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Eget Nulla Porta</a></h5>
+                      <h4 class="col_1">$95</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/26.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
+                      <h4 class="col_1">$85</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature_2r2 clearfix">
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/27.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Semper Porta Diam</a></h5>
+                      <h4 class="col_1">$65</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/28.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Eget Nulla Porta</a></h5>
+                      <h4 class="col_1">$95</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/29.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
+                      <h4 class="col_1">$85</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature_2r2 clearfix">
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/30.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Semper Porta Diam</a></h5>
+                      <h4 class="col_1">$65</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/31.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Eget Nulla Porta</a></h5>
+                      <h4 class="col_1">$95</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="feature_2r2l clearfix">
+                      <div class="feature_2r2l1 clearfix">
+                        <div class="grid clearfix">
+                          <figure class="effect-jazz">
+                            <a href="detail.html"
+                              ><img src="img/32.jpg" class="iw" alt="img25"
+                            /></a>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="feature_2r2l2 clearfix">
+                        <h6 class="mgt"><a href="detail.html">25%</a></h6>
+                      </div>
+                      <div class="feature_2r2l3 clearfix">
+                        <ul class="mgt">
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-shopping-cart"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-recycle"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"
+                              ><i class="fa fa-heart-o"></i
+                            ></a>
+                          </li>
+                          <li>
+                            <a href="detail.html"><i class="fa fa-eye"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="feature_2r2lb clearfix">
+                      <h5><a href="detail.html">Lorem Ipsum Eget</a></h5>
+                      <h4 class="col_1">$85</h4>
+                      <span>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="pages clearfix text-center">
+                  <ul>
+                    <li>
+                      <a href="detail.html"
+                        ><i class="fa fa-chevron-left"></i
+                      ></a>
+                    </li>
+                    <li class="act"><a href="detail.html">1</a></li>
+                    <li><a href="detail.html">2</a></li>
+                    <li><a href="detail.html">3</a></li>
+                    <li><a href="detail.html">4</a></li>
+                    <li><a href="detail.html">5</a></li>
+                    <li><a href="detail.html">6</a></li>
+                    <li>
+                      <a href="detail.html"
+                        ><i class="fa fa-chevron-right"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 space_left">
+              <div class="blog_pg1r clearfix">
+                <div class="blog_pg1r1 mgt clearfix">
+                  <h4 class="mgt">Search Your Keywords</h4>
+                  <hr class="hr_1 mgl" />
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search Here..."
+                    />
+                    <span class="input-group-btn">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                </div>
+                <div class="blog_pg1r1 blog_pg1r1o clearfix">
+                  <h4 class="mgt">Post Categories</h4>
+                  <hr class="hr_1 mgl" />
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Show all
+                      <span class="pull-right">16</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Business
+                      <span class="pull-right">18</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Creative
+                      <span class="pull-right">17</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Inspiation
+                      <span class="pull-right">26</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> News
+                      <span class="pull-right">28</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Photography
+                      <span class="pull-right">27</span></a
+                    >
+                  </h5>
+                  <h5 class="normal pdb border_none">
+                    <a href="detail.html"
+                      ><i class="fa fa-hand-o-right"></i> Smart
+                      <span class="pull-right">22</span></a
+                    >
+                  </h5>
+                </div>
+                <div class="blog_pg1r2 clearfix">
+                  <h4 class="mgt">Recent Post</h4>
+                  <hr class="hr_1 mgl" />
+                  <div class="blog_pg1r2i mgt clearfix">
+                    <a href="detail.html"
+                      ><img src="img/17.jpg" alt="img25"
+                    /></a>
+                    <p class="mgt">
+                      <a href="detail.html"
+                        >Poor People’s Campaign Our Resources</a
+                      >
+                    </p>
+                    <h6>04 February 2019</h6>
+                  </div>
+                  <div class="blog_pg1r2i clearfix">
+                    <a href="detail.html"
+                      ><img src="img/18.jpg" alt="img25"
+                    /></a>
+                    <p class="mgt">
+                      <a href="detail.html"
+                        >Poor People’s Campaign Our Resources</a
+                      >
+                    </p>
+                    <h6>04 February 2019</h6>
+                  </div>
+                  <div class="blog_pg1r2i clearfix">
+                    <a href="detail.html"
+                      ><img src="img/19.jpg" alt="img25"
+                    /></a>
+                    <p class="mgt">
+                      <a href="detail.html"
+                        >Poor People’s Campaign Our Resources</a
+                      >
+                    </p>
+                    <h6>04 February 2019</h6>
+                  </div>
 
-	 </div>
-	 </div>
-	</div>
-  </div>
- </div>
-</section>
+                  <div class="blog_pg1r2i pdb border_none clearfix">
+                    <a href="detail.html"
+                      ><img src="img/17.jpg" alt="img25"
+                    /></a>
+                    <p class="mgt">
+                      <a href="detail.html"
+                        >Poor People’s Campaign Our Resources</a
+                      >
+                    </p>
+                    <h6>04 February 2019</h6>
+                  </div>
+                </div>
+                <div class="blog_pg1r1 blog_pg1r1o clearfix">
+                  <h4 class="mgt">Our Archive</h4>
+                  <hr class="hr_1 mgl" />
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> January
+                      <span class="pull-right">2021</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> February
+                      <span class="pull-right">2020</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> March
+                      <span class="pull-right">2021</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> August
+                      <span class="pull-right">2019</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> September
+                      <span class="pull-right">2018</span></a
+                    >
+                  </h5>
+                  <h5 class="normal">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> October
+                      <span class="pull-right">2016</span></a
+                    >
+                  </h5>
+                  <h5 class="normal pdb border_none">
+                    <a href="detail.html"
+                      ><i class="fa fa-calendar"></i> December
+                      <span class="pull-right">2014</span></a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="subs">
- <div class="container">
-  <div class="row">
-   <div class="subs1 text-center clearfix">
-	<div class="col-sm-12">
-	  <h1 class="mgt col_1">Subscribe to our newsletter</h1>
-	  <p>Get updates for new classes and new products </p>
-	  <input class="form-control" placeholder="Enter email here" type="text">
-	  <h5><a class="button" href="#">Subscribe</a></h5>
-	</div>
-   </div>
- 
-  </div>
- </div>
-</section>
+    <section id="subs">
+      <div class="container">
+        <div class="row">
+          <div class="subs1 text-center clearfix">
+            <div class="col-sm-12">
+              <h1 class="mgt col_1">Subscribe to our newsletter</h1>
+              <p>Get updates for new classes and new products</p>
+              <input
+                class="form-control"
+                placeholder="Enter email here"
+                type="text"
+              />
+              <h5><a class="button" href="#">Subscribe</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section id="footer">
- <div class="container">
-  <div class="row">
-    <div class="footer_1 clearfix">
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <a class="navbar-brand" href="index.html"><i class="fa fa-suitcase col_1"></i>Evento</a>
-		<p><i class="fa fa-map-marker col_1"></i> 172 - Kingdom Oxford Street</p>
-		<p><i class="fa fa-envelope col_1"></i> <a href="#">info#gmail.com</a></p>
-		<p><a href="#"><i class="fa fa-phone col_1"></i> (+00) 123-456-789</a></p>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Working House</h4>
-		<p>Our support available to help you 24 hours a day. We provide our best.</p>
-        <p>Mon – Fri : 08.00 am – 20.00 pm</p>
-		<p>Saturday : 09.00 am – 20.00 pm</p>
-		<p>Sunday : We Are Closed</p>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Quick Links</h4>
-	    <h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Boarding Services</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Grooming Services</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Dog Boarding</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Pet Training</a></h6>
-		<h6 class="col-sm-12 col-xs-6 space_left"><a href="#">Pet Adoptions</a></h6>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_1i clearfix">
-	    <h4>Newsletter</h4>
-	    <p>Subscribe To Our Newsletter And Get Daily 10% Off Your First Purchase.</p>
-		<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search Here...">
-				<span class="input-group-btn">
-					<button class="btn btn-primary" type="button">
-						<i class="fa fa-search"></i></button>
-				</span>
-		</div>
-	  </div>
-	 </div>
-	</div>
-	<div class="footer_2 clearfix">
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-envelope-o"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Email Address</h5>
-		 <h6><a href="#">info@gmail.com</a></h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-phone"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Phone Number</h5>
-		 <h6><a href="#"> (+00) 123-456-789</a></h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-map-marker"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt"> Location</h5>
-		 <h6>20 Semper Road</h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	 <div class="col-sm-3">
-	  <div class="footer_2i clearfix">
-	   <div class="col-sm-2 col-xs-2 space_all">
-	    <div class="footer_2il clearfix">
-		 <span><i class="fa fa-clock-o"></i></span>
-		</div>
-	   </div>
-	   <div class="col-sm-10 col-xs-10 space_right">
-	    <div class="footer_2ir clearfix">
-		 <h5 class="mgt">Open Hours:</h5>
-		 <h6>Mon-Sat: 9 am – 6 pm</h6>
-		</div>
-	   </div>
-	  </div>
-	 </div>
-	</div>
-	<div class="footer_3 clearfix">
-	 <div class="col-sm-7">
-	  <div class="footer_3r clearfix">
-	    <p class="mgt">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_1" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
-	  </div>
-	 </div>
-	 <div class="col-sm-5">
-	  <div class="footer_3l text-right clearfix">
-	    <ul class="mgt">
-	    <li><a href="#">Our Policy</a> </li>
-		<li><a href="#">Terms &amp; Conditions</a></li>
-		<li class="border_none"><a href="#">Site Map</a></li>
-	  </ul>
-	  </div>
-	 </div>
-	</div>
-  </div>
- </div>
-</section>
-	
-<script>
-$(document).ready(function(){
-	/*****Fixed Menu******/
-	var secondaryNav = $('.cd-secondary-nav'),
-	   secondaryNavTopPosition = secondaryNav.offset().top;
-	   navbar_height = document.querySelector('.navbar').offsetHeight;
-	   
-		$(window).on('scroll', function(){
-		    if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
-				secondaryNav.addClass('is-fixed');	
-				document.body.style.paddingTop = navbar_height + 'px';
-				
-			} else {
-				secondaryNav.removeClass('is-fixed');
-				document.body.style.paddingTop = '0'
-			}
-		});	
-		
-});
-</script>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer_1 clearfix">
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <a class="navbar-brand" href="index.html"
+                  ><i class="fa fa-suitcase col_1"></i>Evento</a
+                >
+                <p>
+                  <i class="fa fa-map-marker col_1"></i> 172 - Kingdom Oxford
+                  Street
+                </p>
+                <p>
+                  <i class="fa fa-envelope col_1"></i>
+                  <a href="#">info#gmail.com</a>
+                </p>
+                <p>
+                  <a href="#"
+                    ><i class="fa fa-phone col_1"></i> (+00) 123-456-789</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Working House</h4>
+                <p>
+                  Our support available to help you 24 hours a day. We provide
+                  our best.
+                </p>
+                <p>Mon – Fri : 08.00 am – 20.00 pm</p>
+                <p>Saturday : 09.00 am – 20.00 pm</p>
+                <p>Sunday : We Are Closed</p>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Quick Links</h4>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Boarding Services</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Grooming Services</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Dog Boarding</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Pet Training</a>
+                </h6>
+                <h6 class="col-sm-12 col-xs-6 space_left">
+                  <a href="#">Pet Adoptions</a>
+                </h6>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_1i clearfix">
+                <h4>Newsletter</h4>
+                <p>
+                  Subscribe To Our Newsletter And Get Daily 10% Off Your First
+                  Purchase.
+                </p>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search Here..."
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">
+                      <i class="fa fa-search"></i>
+                    </button>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_2 clearfix">
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-envelope-o"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Email Address</h5>
+                    <h6><a href="#">info@gmail.com</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-phone"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Phone Number</h5>
+                    <h6><a href="#"> (+00) 123-456-789</a></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-map-marker"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Location</h5>
+                    <h6>20 Semper Road</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="footer_2i clearfix">
+                <div class="col-sm-2 col-xs-2 space_all">
+                  <div class="footer_2il clearfix">
+                    <span><i class="fa fa-clock-o"></i></span>
+                  </div>
+                </div>
+                <div class="col-sm-10 col-xs-10 space_right">
+                  <div class="footer_2ir clearfix">
+                    <h5 class="mgt">Open Hours:</h5>
+                    <h6>Mon-Sat: 9 am – 6 pm</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_3 clearfix">
+            <div class="col-sm-7">
+              <div class="footer_3r clearfix">
+                <p class="mgt">
+                  © 2013 Your Website Name. All Rights Reserved | Design by
+                  <a class="col_1" href="http://www.templateonweb.com"
+                    >TemplateOnWeb</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="footer_3l text-right clearfix">
+                <ul class="mgt">
+                  <li><a href="#">Our Policy</a></li>
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+                  <li class="border_none"><a href="#">Site Map</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-</body>
- 
+    <script>
+      $(document).ready(function () {
+        /*****Fixed Menu******/
+        var secondaryNav = $(".cd-secondary-nav"),
+          secondaryNavTopPosition = secondaryNav.offset().top;
+        navbar_height = document.querySelector(".navbar").offsetHeight;
+
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > secondaryNavTopPosition + navbar_height) {
+            secondaryNav.addClass("is-fixed");
+            document.body.style.paddingTop = navbar_height + "px";
+          } else {
+            secondaryNav.removeClass("is-fixed");
+            document.body.style.paddingTop = "0";
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
